@@ -3,18 +3,20 @@
 <head>
     <title>Todo List</title>
     <link rel="stylesheet" href="assets/css/todos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     
     <div id="container">
-        <h1>To-Do List</h1>
-        <input type="text">
+        <h1>To-Do List <span id="toggle-form"><i class="fas fa-plus"></i></span></h1>
+        <input type="text" placeholder="Add New Todo">
 
         <ul>
-            <li><span>X</span> Go To Potions Class</li>
-            <li><span>X</span> Buy New Robes</li>
-            <li><span>X</span> Visit Hagrid</li>
+            <li><span><i class="fas fa-trash-alt"></i></span> Go To Potions Class</li>
+            <li><span><i class="fas fa-trash-alt"></i></span> Buy New Robes</li>
+            <li><span><i class="fas fa-trash-alt"></i></span> Visit Hagrid</li>
         </ul>
     </div>
 
